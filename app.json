@@ -1,42 +1,51 @@
 {
-    "name": "Force Subscribe Bot",
-    "description": "A Telegram bot to force members to join a specific channel before sending messages in a group.",
-    "keywords": [
-        "telegram",
-        "forcesubscribe",
-        "promoter",
-        "subscriber"
-    ],
-    "repository": "https://github.com/viperadnan-git/force-subscribe-telegram-bot",
-    "success_url": "https://github.com/viperadnan-git/force-subscribe-telegram-bot",
-    "env": {
-        "APP_ID": {
-            "description": "Get this value by creating an app on https://my.telegram.org!"
-        },
-        "API_HASH": {
-            "description": "Get this value by creating an app on https://my.telegram.org!"
-        },
-        "BOT_TOKEN": {
-            "description": "Bot token generated from https://t.me/BotFather (https://t.me/botfather)"
-        },
-        "SUDO_USERS": {
-            "description": "List of sudo user ids seperated by space.",
-            "value": "999197022 00000000"
-        }
+  "name": "Force Sub y",
+  "description": "Telegram's best Foruce Subscribe Bot",
+  "keywords": [
+    "telegram",
+    "best",
+    "force sub Bot"
+  ],
+  "success_url": "https://github.com/N93NT0T/forcesub3",
+  "website": "https://github.com/N93NT0T/forcesub3",
+  "repository": "https://github.com/N93NT0T/forcesub3",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your bot token, as a string.",
+      "value": "5176557616:AAG0GACYWHwaAMoJGA7SgArabLpTsgWAEvA"
     },
-    "addons": [
-        {
-            "plan": "heroku-postgresql",
-            "options": {
-                "version": "12"
-            }
-        }
-    ],
-    "stack": "heroku-20",
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
+    "ENV": {
+      "description": "Don't edit this Line",
+      "value": "False"
+    },
+    "APP_ID": {
+      "description": "Get this value from https://my.telegram.org or @MT_MyTelegramOrg_Bot",
+      "value": "11935084"
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org or @MT_MyTelegramOrg_Bot",
+      "value": "644b5ad6ad0e5d394cfe6b780f47680c"
+    },
+    "SUDO_USERS": {
+      "description": "allow only pre-defined users to use this bot",
+      "value": "1393311560"
     }
+  },
+  "addons": [
+    {
+    "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
+  "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
 }
