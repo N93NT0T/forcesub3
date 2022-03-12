@@ -7,7 +7,7 @@
 ## Deploy
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/N93NT0T/forcesub3)
 
 ### Installing Prerequisite
 - On Ubuntu 18.04 or later
